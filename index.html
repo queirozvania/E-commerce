@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<!-- <link rel="stylesheet" href="reset.css"/> -->
+	</head>
+	<body>
+		<div class="header" id="header">
+			<div class="logo-header">
+				<img src="images/imagemlogo1.PNG" class="img_logo_header" alt="Logo vm" />
+			</div>
+			<div class="nagivation_header">
+				<a href="#" class="buttonTodos">Todos</a>
+				<a href="#">Casuais</a>
+				<a href="#">Estampado</a>
+				<a href="#">Debutantes</a>
+			</div>
+		</div>
+		<main>
+			<section class="cardContainer"></section>
+			<aside class="cartsContainer">
+				<div class="searchContainer">
+					<!-- procurar -->
+					<input
+						class="search"
+						type="search"
+						placeholder="Digite sua pesquisa aqui"
+					/>
+					<!-- botão pesquisar -->
+					<input class="btnSearch" type="button" value="Pesquisar" /> 
+				</div>
+				<div class="carBox">
+					<nav class="title">
+						<h1>Carrinho de compras</h1>
+					</nav>
+					<div class="products">
+						<!--produtos-->
+					</div>
+					<!-- pés do carrinho -->
+					<div class="footerCar">
+						<div>
+							<span class="amount">Quantidade</span>
+							<span class="num">0</span>
+						</div>
+						<div>
+							<span class="total">Total</span>
+							<span class="price">R$ 0</span>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</main>
+
+		<script src="cart.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
